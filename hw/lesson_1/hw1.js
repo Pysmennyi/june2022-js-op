@@ -1,30 +1,29 @@
 /*- Створити змінні. Присвоїти кожному з них значення:*/
-/*
-let hello = 'hello';
-let owu = 'owu';
-let com = 'com';
-let ua = 'ua';
-let one = 1;
-let ten = 10;
-let nine3 = -999;
-let oneTwoThree = 123;
-let pi = 3.14;
-let twoPSeven = 2.7;
-let sixteen = 16;
-let bTrue = true;
-let bFalse = false;
-*/
-
+// let hello = 'hello';
+// let owu = 'owu';
+// let com = 'com';
+// let ua = 'ua';
+// let one = 1;
+// let ten = 10;
+// let nine3 = -999;
+// let oneTwoThree = 123;
+// let pi = 3.14;
+// let twoPSeven = 2.7;
+// let sixteen = 16;
+// let bTrue = true;
+// let bFalse = false;
+//
 // let arr = [hello, owu, com, ua, one, ten, nine3, oneTwoThree, pi, twoPSeven, sixteen, bTrue, bFalse];
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
-/*
+
 //VARIANT 1
 
-for (let i = 0; i < 1; i++) {
-    console.log(arr.valueOf());
-    document.write(arr.valueOf());
-    alert(arr);
-//}
+// for (let i = 0; i < arr.length; i++) {
+    // console.log(arr[i]);
+    // document.write(arr[i] + `, `);
+//     alert(arr[i]);
+// }
+    /*
 //VARIANT 2
 //1
 console.log(hello);
@@ -114,8 +113,8 @@ console.log(typeof c);*/
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 
-let name = prompt('please enter your name');
-let midName = prompt(`please enter your middle name`);
-let age = prompt(`please enter your age`);
-
-console.log(`${name} ${midName} ${age} `);
+// let name = prompt('please enter your name');
+// let midName = prompt(`please enter your middle name`);
+// let age = prompt(`please enter your age`);
+//
+// console.log(`${name} ${midName} ${age} `);
