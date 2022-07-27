@@ -53,52 +53,52 @@ let book6 = {
 // Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 let arr2 = [
-    user1 = {
+    {
         name: `Olek`,
         username: `user1`,
         password: `13213ds`,
     },
-    user2 = {
+    {
         name: `Tomas`,
         username: `user2`,
         password: `dsfsE43`,
     },
-    user3 = {
+    {
         name: `Natali`,
         username: `user3`,
         password: `dj56xgT`,
     },
-    user4 = {
+    {
         name: `Tania`,
         username: `user4`,
         password: `jhgfd882364sdsf`,
     },
-    user5 = {
+    {
         name: `Tetiana`,
         username: `user5`,
         password: 2414323,
     },
-    user6 = {
+    {
         name: `Kateryna`,
         username:`user6`,
         password:`kateryna`,
     },
-    user7 = {
+    {
         name:`Mariana`,
         username:`user7`,
         password:`Warsaw2019`,
     },
-    user8 = {
+    {
         name:`Iryna`,
         username:`user8`,
         password:`GreatBritain23`,
     },
-    user9 = {
+    {
         name:`Volodymyr`,
         username:`user9`,
         password:`president6`,
     },
-    user10 = {
+    {
         name:`Kaktus`,
         username:`user10`,
         password:`kaktus`,
