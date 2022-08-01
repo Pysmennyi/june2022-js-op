@@ -36,7 +36,7 @@
 // // який перевірить, до якої четверті години попадає число
 // // (в першу, другу, третю або четверту частину години).
 // console.log(`task 2:`);
-// let time = +prompt();
+let time = +prompt();
 //
 // console.log("Variant 1");
 //
@@ -51,24 +51,24 @@
 // } else {
 //     console.log(`out of range`);
 // }
-// console.log("")
-// console.log("Variant 2:");
-// switch (true) {
-//     case (time < 15):
-//         console.log(("1 quarter"));
-//         break;
-//     case  (time < 30):
-//         console.log(("2 quarter"));
-//         break;
-//     case (time < 45):
-//         console.log(("3 quarter"));
-//         break;
-//     case  (time < 59):
-//         console.log(("4 quarter"));
-//         break;
-//     default:
-//         console.log(("out of range"));
-// }
+console.log("")
+console.log("Variant 2:");
+switch (!!time) {
+    case (time < 15):
+        console.log(("1 quarter"));
+        break;
+    case  (time < 30):
+        console.log(("2 quarter"));
+        break;
+    case (time < 45):
+        console.log(("3 quarter"));
+        break;
+    case  (time < 59):
+        console.log(("4 quarter"));
+        break;
+    default:
+        console.log(("out of range"));
+}
 // console.log("")
 // console.log("Variant 3:");
 //
@@ -178,6 +178,9 @@
 // //     Напишіть код який, за допомоги  оператора || буде присвоювати змінній х значення "default"
 // //         якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)
 // console.log(`task 6:`);
+// let x = NaN || 'default';
+// console.log(x);
+
 // let x = 5;
 // if (!!x === false) {
 //     x = "default";
