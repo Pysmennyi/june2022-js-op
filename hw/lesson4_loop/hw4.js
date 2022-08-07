@@ -115,8 +115,8 @@ let users = [
     {name: 'kolya', age: 29, status: true},
     {name: 'olya', age: 28, status: false},
     {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
     {name: 'oleg', age: 28, status: false},
+    {name: 'anya', age: 31, status: false},
     {name: 'andrey', age: 29, status: true},
     {name: 'masha', age: 30, status: true},
     {name: 'olya', age: 31, status: false},
@@ -148,7 +148,7 @@ for (const user of users) {
 document.write(` <h1 class="taskTitle">Task 7.3: </h1>`)
 for (const user of users) {
     for (let userKey in user) {
-        if (user.age>30) {
+        if (user.age > 30) {
             document.write(`<div>${user[userKey]}</div>`)
         }
     }
