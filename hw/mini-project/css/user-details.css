@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(-45deg, #3d3d3d 8.33%, #000 0, #000 50%, #3d3d3d 0, #3d3d3d 58.33%, #000, #000);
+}
+.generalBlock{
+    color: white;
+    background-color: #3d3d3d;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.userBlock{
+    border-left: 3px outset red;
+    width: 90%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.posts{
+    padding: 10px;
+    border-left: 3px blue solid;
+    color: white;
+    margin-top: 5%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows:auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.userButton{
+margin-top: 20px;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.userButton:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px red;
+}
+.postButton{
+    margin-top: 20px;
+    background-color:blue;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+
+}
+.postButton:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px yellow;
+}

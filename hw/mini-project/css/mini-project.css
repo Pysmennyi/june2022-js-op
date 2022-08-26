@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(-45deg, #3d3d3d 8.33%, #000 0, #000 50%, #3d3d3d 0, #3d3d3d 58.33%, #000 0, #000);
+}
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -5px -5px red;
+
+}
+.bodyDiv{
+    background-color: black;
+    background-image: linear-gradient(45deg, #3d3d3d 8.33%, #000 0, #000 50%, #3d3d3d 0, #3d3d3d 58.33%, #000 0, #000);
+    background-size: 8.49px 8.49px;
+    margin-top: 150px;
+}
+.generalDiv{
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns:1fr minmax(5px, 5fr);
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+.userInfo{
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    width: 137px;
+    background-color: grey;
+    border-left: 3px outset red;
+    padding: 10px 5px 0 5px;
+    margin-right: 5px;
+    color: white;
+    border-radius: .5rem;
+    position:relative
+}
+
+button{
+    position: absolute;
+    left: 50%;
+    top:65%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px red;
+}
